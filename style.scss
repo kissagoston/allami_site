@@ -1,0 +1,127 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	//border: 1px solid black;
+}
+
+body {
+	background-color: rgb(226, 162, 43);
+	justify-content: center;
+	display: flex;
+	width: 100vw;
+	height: 100vh;
+
+	.navbar .navbar-1 {
+		background-image: url("https://mdbcdn.b-cdn.net/img/svg/hamburger6.svg?color=000%22");
+		position: fixed;
+		border: 1px solid rgb(48, 184, 154);
+		background-color: rgb(48, 184, 154);
+		top: 23px;
+		right: 23px;
+		height: 70px;
+		width: 70px;
+		z-index: 1;
+	}
+	
+	
+	
+	#icon {
+		padding: 0;
+
+		.navbar-toggler-icon {
+		position: fixed;
+		background-color: rgb(48, 184, 154);
+		color: white;
+		border-radius: 50%;
+		width: 90px;
+		height: 90px;
+		top: 10px;
+		right: 10px;
+	
+		// .one .two .three {
+		// 	position: fixed;
+		// 	content: "";
+		// 	width: 30px;
+		// 	height: 10px;
+		// 	background-color: white;
+		// }
+	}
+	}
+	
+	.content {
+		//display: flex;
+		position: fixed;
+	
+		//align-items: center;
+		//justify-content: center;
+		width: 700px;
+		height: 700px;
+		padding: 20px;
+		margin: 0 auto;
+		top: 160px;
+		left: 400px;
+	
+		.jel {
+			position: fixed;
+			display: inline;
+			margin: 20px;
+			left: 730px;
+			color: rgb(42, 165, 138);
+			font-family: 'Cardo', serif;
+			font-weight: 700;
+			font-size: 30px;
+		}
+	
+		.box {
+			display: flex;
+			align-items:center;
+			//justify-content:space-between;
+			flex-direction: column;
+			flex-wrap: wrap;
+			width: 800px;
+			height: 500px;
+			
+	
+			input {
+				position: relative;
+				width: 600px;
+				height: 80px;
+				top: 50px;
+				padding: 20px;
+				margin: 30px;
+				color: rgb(48, 184, 154);
+			}
+			
+	
+			
+		}
+	
+		.checkbox {
+			position: fixed;
+			top: 650px;
+			left: 580px;
+			
+	
+			p {
+				position: fixed;
+				top: 650px;
+				left: 600px;
+				font-size: large;
+				color: rgb(48, 184, 154);
+			}
+		}
+	
+		button {
+			position: fixed;
+			top: 720px;
+			left: 650px;
+			width: 300px;
+			height: 70px;
+			background-color:rgb(48, 184, 154);
+			color: white;
+			border: 1px solid white;
+		}
+	
+	}
+}

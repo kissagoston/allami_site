@@ -1,0 +1,119 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #e2a22b;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+body .navbar .navbar-1 {
+  background-image: url("https://mdbcdn.b-cdn.net/img/svg/hamburger6.svg?color=000%22");
+  position: fixed;
+  border: 1px solid #30b89a;
+  background-color: #30b89a;
+  top: 23px;
+  right: 23px;
+  height: 70px;
+  width: 70px;
+  z-index: 1;
+}
+
+body #icon {
+  padding: 0;
+}
+
+body #icon .navbar-toggler-icon {
+  position: fixed;
+  background-color: #30b89a;
+  color: white;
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  top: 10px;
+  right: 10px;
+}
+
+body .content {
+  position: fixed;
+  width: 700px;
+  height: 700px;
+  padding: 20px;
+  margin: 0 auto;
+  top: 160px;
+  left: 400px;
+}
+
+body .content .jel {
+  position: fixed;
+  display: inline;
+  margin: 20px;
+  left: 730px;
+  color: #2aa58a;
+  font-family: 'Cardo', serif;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+body .content .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 800px;
+  height: 500px;
+}
+
+body .content .box input {
+  position: relative;
+  width: 600px;
+  height: 80px;
+  top: 50px;
+  padding: 20px;
+  margin: 30px;
+  color: #30b89a;
+}
+
+body .content .checkbox {
+  position: fixed;
+  top: 650px;
+  left: 580px;
+}
+
+body .content .checkbox p {
+  position: fixed;
+  top: 650px;
+  left: 600px;
+  font-size: large;
+  color: #30b89a;
+}
+
+body .content button {
+  position: fixed;
+  top: 720px;
+  left: 650px;
+  width: 300px;
+  height: 70px;
+  background-color: #30b89a;
+  color: white;
+  border: 1px solid white;
+}
+/*# sourceMappingURL=style.css.map */
